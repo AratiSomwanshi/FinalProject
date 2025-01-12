@@ -1,0 +1,33 @@
+
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .photo-category {
+    margin-bottom: 40px;
+  }
+  
+  .photo-category h2 {
+    margin-bottom: 20px;
+  }
+  
+  .photo-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .photo-card {
+    width: 100%;
+    max-width: 200px; 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  

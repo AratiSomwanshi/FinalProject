@@ -1,0 +1,144 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    /* General body styles */
+    body {
+        background-image: url('/Images/football4.jpg'); /* Replace with your image URL */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; /* Make sure the background covers the entire page */
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Main content area styles */
+    .main-content {
+        flex: 1; /* This makes the main content fill the remaining space */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Card styling with a blurred effect */
+    .card {
+        background: transparent; /* Removes the background color */
+        backdrop-filter: blur(10px); /* Blur effect for the card */
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Darker shadow to make the card pop */
+        padding: 20px;
+        max-width: 500px;
+        width: 100%; /* Make sure the card takes full available width */
+        z-index: 10; /* Ensure it's on top of other elements */
+    }
+
+    .card-header {
+        font-size: 24px;
+        font-weight: bold;
+        color: #28a745; /* Green color for the header */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .form-side {
+        padding: 10px;
+    }
+
+    .form-floating {
+        margin-bottom: 15px;
+    }
+
+    /* Removed background color from input fields */
+    .form-control {
+        background-color: transparent; /* Removes the background color */
+        border-radius: 8px;
+        padding: 15px;
+        font-size: 14px;
+        width: 100%;
+        border: 1px solid #ccc; /* Optional: keeps a subtle border */
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        border-radius: 8px;
+        padding: 12px;
+        width: 100%;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+    /* Custom styles for validation error messages */
+    .text-danger {
+        font-size: 12px;
+    }
+
+    /* Flexbox ensures it works across all screen sizes without needing media queries */
+    .card-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Label color change */
+    label {
+        color: red; /* Set label text color to red */
+    }
+</style>
+
+<!-- Main content area -->
+<div class="main-content">
+    <div class="card">
+        <!-- Card Header -->
+        <div class="card-header">
+            Create a New Account
+        </div>
+
+        <!-- Card Body (Form) -->
+        <div class="card-body">
+            <div class="form-side">
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Name" class="form-control" aria-required="true" placeholder="Name" />
+                        <label asp-for="Input.Name">Name</label>
+                        <span asp-validation-for="Input.Name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Email" class="form-control" aria-required="true" placeholder="name@example.com" />
+                        <label asp-for="Input.Email">Email</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.Password" class="form-control" aria-required="true" placeholder="password" />
+                        <label asp-for="Input.Password">Password</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.ConfirmPassword" class="form-control" aria-required="true" placeholder="password" />
+                        <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+
+                    <button id="registerSubmit" type="submit" class="btn btn-lg btn-primary">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,96 @@
+﻿@model eShopSystem.Models.Category
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    /* General body and layout */
+    body {
+        background-color: #f8f9fa; /* Light background */
+        font-family: Arial, sans-serif; /* Clean and modern font */
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Page content container */
+    .container {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Header styles */
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h4 {
+        color: #555;
+        text-align: center;
+    }
+
+    /* Description List Styling */
+    .dl {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+        .dl dt {
+            font-weight: bold;
+        }
+
+        .dl dd {
+            margin-bottom: 10px;
+        }
+
+    /* Link styling */
+    a {
+        text-decoration: none;
+        color: #007bff;
+        font-weight: bold;
+    }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+    /* Footer link */
+    .footer-links {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        /* Spacing between the edit and back links */
+        .footer-links a {
+            margin: 0 10px;
+        }
+</style>
+
+<div class="container">
+    <h1>Details</h1>
+
+    <div class="dl">
+        <h4>Category</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CategoryName)
+            </dd>
+        </dl>
+    </div>
+
+    <div class="footer-links">
+        <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+        <a asp-action="Index">Back to List</a>
+    </div>
+</div>

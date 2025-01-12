@@ -1,0 +1,43 @@
+
+
+.AboutUs {
+  
+  background-image: url('../images/imag4.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  color: white; 
+  display: flex;
+  flex-direction: column;
+}
+
+.vision-mission {
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; 
+ 
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-card {
+  background: rgba(0, 0, 0, 0.7); 
+  border-radius: 10px; 
+  padding: 10px;
+  text-align: center;
+  max-width: 200px;
+}
+
+.team-photo {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.team-info {
+  color: white; 
+}

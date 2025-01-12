@@ -1,0 +1,122 @@
+﻿@model eShopSystem.Models.Product
+
+<style>
+    body {
+        background-color: #99ffff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+        color: #dc3545; /* Red for the title */
+    }
+
+    .product-details dl {
+        margin: 20px 0;
+        font-size: 1.1rem;
+    }
+
+    .product-details dt {
+        font-weight: bold;
+    }
+
+    .product-details dd {
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .form-group {
+        margin-top: 20px;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        color: white;
+        border: none;
+    }
+
+        .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+    .back-to-list {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 1rem;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .back-to-list:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<div class="container">
+    <h3>Are you sure you want to delete this product?</h3>
+
+    <div class="product-details">
+        <h4>Product Details</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Name)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Name)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Description)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Description)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Price)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Price)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Imageurl)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Imageurl)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Category)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Category.CategoryName)</dd>
+
+            <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Stock)</dt>
+            <dd class="col-sm-10">@Html.DisplayFor(model => model.Stock)</dd>
+        </dl>
+    </div>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group">
+            <input type="submit" value="Delete" class="btn btn-danger" />
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+
+    <div>
+        <a asp-action="Index" class="back-to-list">Back to List</a>
+    </div>
+</div>

@@ -1,0 +1,121 @@
+﻿@model eShopSystem.Models.Cart
+
+@{
+    ViewData["Title"] = "Your Cart";
+}
+
+<style>
+    body {
+        background-color: #99ffbb;
+    }
+
+    .cart-summary {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+        .cart-summary p {
+            font-size: 16px;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .quantity-input {
+        width: 60px;
+    }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.CartItems.Any())
+{
+    <div class="row">
+        @foreach (var item in Model.CartItems)
+        {
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="@item.Product.Imageurl" class="card-img-top" alt="@item.Product.Name" />
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Product.Name</h5>
+                        <p class="card-text">@item.Product.Description</p>
+                        <p class="card-text"><strong>@item.Product.Price.ToString("C")</strong></p>
+
+                        <!-- Quantity Input -->
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" value="@item.Quantity" min="1" class="form-control quantity-input" data-item-id="@item.Id" />
+                        </div>
+
+                        <p class="card-text">
+                            <strong>Total: @(item.Quantity * item.Price).ToString("C")</strong>
+                        </p>
+
+                        <form action="@Url.Action("RemoveFromCart", "Cart")" method="post" style="display:inline-block;">
+                            <input type="hidden" name="cartItemId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Remove</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="cart-summary mt-4">
+        <p>Total Items: <span id="total-items">@Model.TotalItems</span></p>
+        <p>Total Price: <span id="total-price">@Model.TotalPrice.ToString("C")</span></p>
+        <a href="@Url.Action("Checkout", "Cart")" class="btn btn-primary">Proceed to Checkout</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const quantityInputs = document.querySelectorAll(".quantity-input");
+
+            quantityInputs.forEach(input => {
+                input.addEventListener("change", async (e) => {
+                    const itemId = e.target.dataset.itemId;
+                    const quantity = e.target.value;
+                    await updateQuantity(itemId, quantity);
+                    updateCart();
+                });
+            });
+
+            async function updateQuantity(itemId, quantity) {
+                const response = await fetch(`/Cart/UpdateQuantity?cartItemId=${itemId}&quantity=${quantity}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+            }
+
+            async function updateCart() {
+                const response = await fetch('/Cart/GetCartDetails');
+                const cart = await response.json();
+                document.querySelector("#total-price").innerText = cart.TotalPrice.toFixed(2);
+                document.querySelector("#total-items").innerText = cart.TotalItems;
+            }
+        });
+    </script>
+}
+else
+{
+    <div class="empty-cart-card">
+        <img src="/Images/emptycart.jpg" alt="Your cart is empty" />
+        <h3>Your cart is empty. Please add items to proceed with the checkout.</h3>
+    </div>
+}

@@ -1,0 +1,106 @@
+﻿@model eShopSystem.Models.CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<style>
+    body {
+        background-color: #f1f1f1;
+    }
+
+    .checkout-summary {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .checkout-item {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+
+        .checkout-item img {
+            max-width: 50px;
+            margin-right: 15px;
+        }
+
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    .empty-cart-card {
+        text-align: center;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+        .empty-cart-card img {
+            max-width: 100%;
+            height: auto;
+        }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.CartItems.Any())
+{
+    <div class="checkout-summary">
+        <h3>Cart Summary</h3>
+        @foreach (var item in Model.CartItems)
+        {
+            <div class="checkout-item">
+                <!-- Display product image, name, and quantity -->
+                <img src="@item.Product.Imageurl" class="card-img-top" alt="@item.Product.Name" />
+                <div>
+                    <p><strong>@item.Product.Name</strong> (x @item.Quantity)</p>
+                    <p>Total: @((item.Quantity * item.Price).ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("en-IN")))</p>
+                </div>
+            </div>
+        }
+
+        <p><strong>Total Price: @Model.TotalPrice.ToString("C0", System.Globalization.CultureInfo.GetCultureInfo("en-IN"))</strong></p>
+
+        <!-- Shipping Address Selection -->
+        <form action="@Url.Action("CompleteCheckout", "Cart")" method="post">
+            <div class="form-group">
+                <label for="shippingAddress">Shipping Address</label>
+                <select class="form-control" id="shippingAddress" name="shippingAddressId" required>
+                    @if (!Model.ShippingAdds.Any())
+                    {
+                        <!-- Fixed default address when no shipping address is available -->
+                        <option value="0" selected="selected">123 Fixed Address, City, State, 12345, Country</option>
+                    }
+                    else
+                    {
+                        @foreach (var address in Model.ShippingAdds)
+                        {
+                            <option value="@address.Id">@address.AddressLine1, @address.City</option>
+                        }
+                    }
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Complete Checkout</button>
+        </form>
+
+    </div>
+}
+else
+{
+    <div class="empty-cart-card">
+        <p>Your cart is empty!</p>
+        <img src="/Images/emptycart.jpg" alt="Your cart is empty" />
+    </div>
+}

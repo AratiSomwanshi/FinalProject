@@ -1,0 +1,40 @@
+﻿@model IEnumerable<eShopSystem.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+<style>
+    body{
+        background-color: #ebfaeb;
+    }
+</style>
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    @foreach (var product in Model)
+    {
+        <div class="col-md-3">
+            <div class="card">
+                <img src="@product.Imageurl" class="card-img-top" alt="@product.Name" />
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Description</p>
+                    <p class="card-text"><strong>@product.Price.ToString("C")</strong></p>
+                   
+
+                    <!-- Form to Add to Cart -->
+                    <form action="@Url.Action("AddToCart", "Cart")" method="post">
+                        <input type="hidden" name="productId" value="@product.Id" />
+                        <div class="form-group">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" name="quantity" value="1" min="1" class="form-control" id="quantity" />
+                        </div>
+                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary">Details</a>
+                        <button type="submit" class="btn btn-success mt-2">Add to Cart</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    }
+</div>

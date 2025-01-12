@@ -1,0 +1,49 @@
+﻿@model eShopSystem.Models.Order
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<h2>Order Confirmation</h2>
+
+<p><strong>Order ID:</strong> @Model.Id</p>
+<p><strong>Order Date:</strong> @Model.OrderDate.ToShortDateString()</p>
+<p><strong>Total Price:</strong> @Model.TotalPrice.ToString("C")</p>
+<p><strong>Status:</strong> @Model.Status</p>
+
+<h3>Items</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.Price.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Shipping Information</h3>
+@if (Model.Shippings != null && Model.Shippings.Any())
+{
+    var shipping = Model.Shippings.FirstOrDefault();
+    <p><strong>Address:</strong> @shipping??.Address</p>
+    <p><strong>City:</strong> @shipping??.City</p>
+    <p><strong>State:</strong> @shipping??.State</p>
+    <p><strong>Zip Code:</strong> @shipping??.ZipCode</p>
+    <p><strong>Country:</strong> @shipping??.Country</p>
+    <p><strong>Shipping Status:</strong> @shipping??.ShippingStatus</p>
+}
+else
+{
+    <p>No shipping information available.</p>
+}

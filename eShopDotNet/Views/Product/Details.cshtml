@@ -1,0 +1,120 @@
+﻿@model eShopSystem.Models.Product
+
+@{
+    ViewData["Title"] = @Model.Name;
+}
+<style>
+    body {
+        background-color: #ebfaeb;
+    }
+</style>
+<h1>@Model.Name</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="@Model.Imageurl" class="img-fluid" alt="@Model.Name" />
+    </div>
+    <div class="col-md-6">
+        <h3>Description</h3>
+        <p>@Model.Description</p>
+        <p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+        <p><strong>Stock:</strong> @Model.Stock</p>
+        <form action="@Url.Action("AddToCart", "Cart")" method="post">
+            <input type="hidden" name="productId" value="@Model.Id" />
+            <div class="form-group">
+                <label for="quantity">Quantity</label>
+                <input type="number" name="quantity" value="1" min="1" class="form-control" id="quantity" />
+            </div>
+            <button type="submit" class="btn btn-success mt-2">Add to Cart</button>
+        </form>
+    </div>
+</div>
+
+<!-- Review Section -->
+<h3 class="mt-5">Reviews</h3>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form method="post" asp-action="Create" asp-controller="Review">
+        <input type="hidden" name="ProductId" value="@Model.Id" />
+
+        <div class="form-group">
+            <label for="Rating">Rating:</label>
+            <div class="rating">
+                @for (int i = 1; i <= 5; i++)
+                {
+                    <input type="radio" id="star@i" name="Rating" value="@i" class="star-rating" />
+                    <label for="star@i" class="star">&#9733;</label>
+                }
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="Comment">Comment:</label>
+            <textarea name="Comment" class="form-control" id="Comment" rows="3" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+}
+
+<hr />
+
+<h4>Customer Reviews</h4>
+
+@if (Model.Reviews != null && Model.Reviews.Any())
+{
+    <div class="reviews-list">
+        @foreach (var review in Model.Reviews)
+        {
+            <div class="review-item">
+                <strong>@review.Username</strong> -
+                <span>@review.Rating / 5</span>
+                <p>@review.Comment</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No reviews yet. Be the first to review this product!</p>
+}
+
+<a href="@Url.Action("ProductCards", "Product")" class="btn btn-secondary">Back to Product List</a>
+
+@section Styles {
+    <style>
+        .rating {
+            display: flex;
+            direction: row-reverse;
+        }
+
+        .star {
+            font-size: 30px;
+            color: #ccc;
+            cursor: pointer;
+            padding: 0 5px;
+        }
+
+        .star-rating:checked ~ .star {
+            color: gold;
+        }
+
+        .star-rating:not(:checked) ~ .star {
+            color: #ccc;
+        }
+
+        .star-rating:checked + .star {
+            color: gold;
+        }
+
+        .star-rating:checked:focus + .star {
+            color: gold;
+        }
+
+        .reviews-list .review-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+    </style>
+}

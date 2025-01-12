@@ -1,0 +1,409 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\eShopSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eShopSystem.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\1724871188347-df9c0b27-4a0b-49c2-ae0f-619a5fec5c36.jpg",
+      "PackagePath": "staticwebassets\\Images\\1724871188347-df9c0b27-4a0b-49c2-ae0f-619a5fec5c36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\1724871226031-eaf9862b-1a8e-441c-8970-8ad189e25dec.jpg",
+      "PackagePath": "staticwebassets\\Images\\1724871226031-eaf9862b-1a8e-441c-8970-8ad189e25dec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\1724872018355-3ed818ae-3e74-4f26-a6c4-5b438a7b07ef.jpg",
+      "PackagePath": "staticwebassets\\Images\\1724872018355-3ed818ae-3e74-4f26-a6c4-5b438a7b07ef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\1724872098142-dc31e5c9-521a-416c-916b-28e34456faff.jpg",
+      "PackagePath": "staticwebassets\\Images\\1724872098142-dc31e5c9-521a-416c-916b-28e34456faff.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\1724872979119-871e2aca-b199-4fcc-8147-b94f5862b70d.jpg",
+      "PackagePath": "staticwebassets\\Images\\1724872979119-871e2aca-b199-4fcc-8147-b94f5862b70d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\1724873074221-cc72102b-6949-458d-ad56-fcd31caae53a.jpg",
+      "PackagePath": "staticwebassets\\Images\\1724873074221-cc72102b-6949-458d-ad56-fcd31caae53a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\DipaliGabure.pdf",
+      "PackagePath": "staticwebassets\\Images\\DipaliGabure.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\Screenshot 2024-07-02 173608.png",
+      "PackagePath": "staticwebassets\\Images\\Screenshot 2024-07-02 173608.png"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\backet.jpg",
+      "PackagePath": "staticwebassets\\Images\\backet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\basket.jpg",
+      "PackagePath": "staticwebassets\\Images\\basket.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\basketball.jpg",
+      "PackagePath": "staticwebassets\\Images\\basketball.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\basketball4.jpg",
+      "PackagePath": "staticwebassets\\Images\\basketball4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\basktboll.jpg",
+      "PackagePath": "staticwebassets\\Images\\basktboll.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\batmentan (2).jpg",
+      "PackagePath": "staticwebassets\\Images\\batmentan (2).jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\batmentan.jpg",
+      "PackagePath": "staticwebassets\\Images\\batmentan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\cricket.jpg",
+      "PackagePath": "staticwebassets\\Images\\cricket.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\cricket1.jpg",
+      "PackagePath": "staticwebassets\\Images\\cricket1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\cricket2.jpg",
+      "PackagePath": "staticwebassets\\Images\\cricket2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\cricket3.jpg",
+      "PackagePath": "staticwebassets\\Images\\cricket3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\cricket4.jpg",
+      "PackagePath": "staticwebassets\\Images\\cricket4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\emptycart.jpg",
+      "PackagePath": "staticwebassets\\Images\\emptycart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\football.jpg",
+      "PackagePath": "staticwebassets\\Images\\football.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\football1.jpg",
+      "PackagePath": "staticwebassets\\Images\\football1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\football2.jpg",
+      "PackagePath": "staticwebassets\\Images\\football2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\football3.jpg",
+      "PackagePath": "staticwebassets\\Images\\football3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\football4.jpg",
+      "PackagePath": "staticwebassets\\Images\\football4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\footballmain.jpg",
+      "PackagePath": "staticwebassets\\Images\\footballmain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\registerImage.jpg",
+      "PackagePath": "staticwebassets\\Images\\registerImage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Images\\tabletanes.jpg",
+      "PackagePath": "staticwebassets\\Images\\tabletanes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\1ed3a0e4-4957-4409-92b3-acdae238dd6a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1ed3a0e4-4957-4409-92b3-acdae238dd6a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\3a9e5087-94fc-46eb-bad4-e30685365fb5.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3a9e5087-94fc-46eb-bad4-e30685365fb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\4428f298-4a17-4c1c-97e1-0e19b9fd9c2a.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\4428f298-4a17-4c1c-97e1-0e19b9fd9c2a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\5d7ab47e-704f-4bd4-b41b-c11bbdfb2da4.png",
+      "PackagePath": "staticwebassets\\Uploads\\5d7ab47e-704f-4bd4-b41b-c11bbdfb2da4.png"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\e269d67f-9295-4c88-b3cb-db5a73cf5205.png",
+      "PackagePath": "staticwebassets\\Uploads\\e269d67f-9295-4c88-b3cb-db5a73cf5205.png"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\fba83824-c57d-4dcd-a26d-f59b549d60fb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\fba83824-c57d-4dcd-a26d-f59b549d60fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\Uploads\\fe9cebe5-96c9-4144-9230-9fb2c64b9439.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\fe9cebe5-96c9-4144-9230-9fb2c64b9439.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Somwanshi\\Desktop\\Final_project\\eShopDotNet\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eShopSystem.props",
+      "PackagePath": "build\\eShopSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eShopSystem.props",
+      "PackagePath": "buildMultiTargeting\\eShopSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eShopSystem.props",
+      "PackagePath": "buildTransitive\\eShopSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eShopSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,163 @@
+﻿@model IEnumerable<eShopSystem.Models.Product>
+
+<style>
+    /* Set background color */
+    body {
+        background-color: #ebfaeb;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Container to hold the content */
+    .container {
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Create New Product Link */
+    .create-btn {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .create-btn .btn {
+            background-color: #28a745;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+            .create-btn .btn:hover {
+                background-color: #218838;
+            }
+
+    /* Table styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: white;
+    }
+
+        table th, table td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            color: #333;
+        }
+
+        table td {
+            color: #555;
+        }
+
+    /* Image styling */
+    img {
+        width: 100px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /* Action buttons */
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        margin: 0 5px;
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+    .btn-warning {
+        background-color: #ffc107;
+        color: black;
+        border: none;
+    }
+
+        .btn-warning:hover {
+            background-color: #e0a800;
+        }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+        }
+
+    /* Form styling for Delete */
+    form {
+        display: inline;
+    }
+</style>
+
+<div class="container">
+    <p class="create-btn">
+        <a asp-action="Create" class="btn">Create New Product</a>
+    </p>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>
+                        <!-- Product Image -->
+                        <img src="@product.Imageurl" alt="@product.Name" />
+                    </td>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                    <td><strong>@product.Price.ToString("C")</strong></td>
+                    <td>
+                        <!-- View Details Button -->
+                        <a href="@Url.Action("Details", "Product", new { id = product.Id })" class="btn btn-primary btn-sm">View Details</a>
+
+                        <!-- Edit Button -->
+                        <a href="@Url.Action("Edit", "Product", new { id = product.Id })" class="btn btn-warning btn-sm">Edit</a>
+
+                        <!-- Delete Button (with confirmation) -->
+                        <form method="post" action="@Url.Action("Delete", "Product", new { id = product.Id })" class="d-inline" onsubmit="return confirm('Are you sure you want to delete this product?')">
+                            @Html.AntiForgeryToken() <!-- Correct CSRF token generation -->
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

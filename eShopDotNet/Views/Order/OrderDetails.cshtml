@@ -1,0 +1,42 @@
+﻿@model eShopSystem.Models.Order
+
+@{
+    ViewData["Title"] = "Order Details";
+}
+
+<h2>Order Details</h2>
+
+<p><strong>Order ID:</strong> @Model.Id</p>
+<p><strong>User:</strong> @Model.User.UserName</p>
+<p><strong>Order Date:</strong> @Model.OrderDate.ToShortDateString()</p>
+<p><strong>Total Price:</strong> @Model.TotalPrice.ToString("C")</p>
+<p><strong>Status:</strong> @Model.Status</p>
+
+<h3>Items</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrderItems)
+        {
+            <tr>
+                <td>@item.Product.Name</td>
+                <td>@item.Quantity</td>
+                <td>@item.Price.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h3>Shipping Information</h3>
+<p><strong>Address:</strong> @Model.Shippings.FirstOrDefault()??.Address</p>
+<p><strong>City:</strong> @Model.Shippings.FirstOrDefault()??.City</p>
+<p><strong>State:</strong> @Model.Shippings.FirstOrDefault()??.State</p>
+<p><strong>Zip Code:</strong> @Model.Shippings.FirstOrDefault()??.ZipCode</p>
+<p><strong>Country:</strong> @Model.Shippings.FirstOrDefault()??.Country</p>
+<p><strong>Shipping Status:</strong> @Model.Shippings.FirstOrDefault()??.ShippingStatus</p>
