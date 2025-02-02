@@ -52,3 +52,6 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
 
 
 # ASP.Net MVC :
+- ASP.NET MVC used to build server-side applications, managing user login, registration, and roles.
+- Identity Framework is used for managing users, roles, and authentication directly in the MVC application.
+- Controllers manage data flow between models and views, while Identity manages user authentication and roles.
