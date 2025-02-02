@@ -1,4 +1,4 @@
-# sports accessories E-commerce system 
+# Sports accessories E-commerce system 
 E-commerce system specifically designed for sports accessories.
 Feel free to suggest any updates and submit a pull request
 # Purpose:
@@ -14,7 +14,7 @@ Feel free to suggest any updates and submit a pull request
 * Cart Management: Users can add, remove, or modify items in their cart.
 * Order Summary: Show a detailed summary of the order before finalizing.
 # Admin Interface: 
- the Admin Interface features adashboard, user management, product updates, and order tracking
+ The Admin Interface features adashboard, user management, product updates, and order tracking
 # User Interface: 
 User registration with login options, personalized dashboard, easy product search, detailed product pages, quick add-to-cart, and slide-out cart preview.
 # Technology Stack:
