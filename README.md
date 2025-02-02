@@ -1,7 +1,7 @@
-# Sports accessories E-commerce system 
+## Sports accessories E-commerce system 
 E-commerce system specifically designed for sports accessories.
 Feel free to suggest any updates and submit a pull request
-# Purpose:
+@ Purpose:
 * Target Audience: The project is designed specifically for sports players.
 * Objective: It aims to simplify the process of finding and purchasing sports accessories.
 * Technical Scope: Showcases a comprehensive skill set in both front-end and back-end          development.
