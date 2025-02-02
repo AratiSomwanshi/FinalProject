@@ -63,7 +63,7 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/cf1efef1047ae55235a1e58b66f5d05e10fa60df/eshop/src/images/Screenshot%20%20121635.png)
 # Login page
  ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/962f7597c6d967f1ffc7c6a6c54157146dda49b0/eshop/src/images/Screenshot%20121608.png)
- # User login page
+ # User panel page
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/8d5118ea439656845c5c49540948b15d9c524157/eshop/src/images/Screenshot%20%20122920.png)
 # Admin panel
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/c7e7780441a48a40a44b2c34d94733e2c3d6c8b1/eshop/src/images/Screenshot%20%20122015.png)
@@ -79,10 +79,10 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
   ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/3e9d15982c276711692127f712ade5cceeb13f83/eshop/src/images/Screenshot%20122527.png)
   - Product list
     ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/c2ebfcc27a0f6a2696209332dd21d0491c032f76/eshop/src/images/Screenshot%20122339.png)
-    - Edit product
+ - Edit product
     ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/d9f6c01cdd0158e91b62fe5eb8a8387b2383685b/eshop/src/images/Screenshot%20%20122620.png)
 - Delete product
-  ![image alt]()
+  ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/7fcae022d406dc2aacd9b8152705a4ec89a072fe/eshop/src/images/Screenshot%20%20122742.png)
   
 # Cart 
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/304d4464793c70887909a83fcb2619c0c3c6852d/eshop/src/images/Screenshot%20%20123131.png)
