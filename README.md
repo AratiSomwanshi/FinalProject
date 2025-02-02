@@ -58,3 +58,7 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
 
 
   ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/4c538424080ad410c0947260b518a14c6c2d3d13/Screenshot%202025-01-07%20121524.png)
+
+
+![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/cf1efef1047ae55235a1e58b66f5d05e10fa60df/eshop/src/images/Screenshot%20%20121635.png)
+
