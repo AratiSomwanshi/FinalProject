@@ -72,6 +72,8 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/b5b047ae555cde49e0d932890392fa41f8aa302c/eshop/src/images/Screenshot%20122039.png)
 - Category List
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/ef68512eee72a0df59b1347dbed1500b6e8fdb4b/eshop/src/images/Screenshot%20122203.png)
+- Update category
+  ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/fc0bb66755fbb2a00a1b94b5d643d092899216fc/eshop/src/images/Screenshot%20122057.png)
 # Cart 
 ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/304d4464793c70887909a83fcb2619c0c3c6852d/eshop/src/images/Screenshot%20%20123131.png)
 # Order Product
