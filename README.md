@@ -78,7 +78,7 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
 - Create product
   ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/3e9d15982c276711692127f712ade5cceeb13f83/eshop/src/images/Screenshot%20122527.png)
   - Product list
-    ![image alt]()
+    ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/c2ebfcc27a0f6a2696209332dd21d0491c032f76/eshop/src/images/Screenshot%20122339.png)
     - Edit product
     ![image alt]()
 - Delete product
