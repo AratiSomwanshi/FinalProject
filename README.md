@@ -80,7 +80,7 @@ Functionality: Facilitates the creation of interactive and component-based UIs, 
   - Product list
     ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/c2ebfcc27a0f6a2696209332dd21d0491c032f76/eshop/src/images/Screenshot%20122339.png)
     - Edit product
-    ![image alt]()
+    ![image alt](https://github.com/AratiSomwanshi/FinalProject/blob/d9f6c01cdd0158e91b62fe5eb8a8387b2383685b/eshop/src/images/Screenshot%20%20122620.png)
 - Delete product
   ![image alt]()
   
