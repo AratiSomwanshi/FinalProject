@@ -17,14 +17,11 @@ Admin Roles: Create and manage user roles and permissions (e.g., product manager
 # Technology Stack:
 # Backend:
   - Spring Boot: Spring Boot offers a comprehensive framework for developing Java-based web applications, including RESTful APIs.
-  - Database:
-    - MySQL: MySQL will manage data related to products, users, orders, and other critical information efficiently.
-  - Authentication:
-JSON Web Tokens (JWT): Employed for secure authentication and authorization. JWTs ensure that user sessions are protected and that sensitive endpoints are accessible only by authenticated users.
-  - Cross-Origin Resource Sharing (CORS):
-CORS: Used to handle cross-origin requests, enabling seamless communication between the front-end and back-end, especially when they are hosted on different domains or ports.
+  - Database: MySQL will manage data related to products, users, orders, and other critical information efficiently.
+  - Authentication: JSON Web Tokens (JWT): Employed for secure authentication and authorization.
+  - Cross-Origin Resource Sharing (CORS): CORS enables secure cross-origin requests for front-end and back-end communication across different domains or ports..
 # Frontend :
-  - Axios: Used for making HTTP requests to interact with the backend. Handles API calls for retrieving and sending data to and from the server.
+  - Axios: Used for making HTTP requests to interact with the backend. 
   - Material-UI: Provides stylish and responsive UI components.
   - React.js: Used to provide a dynamic and responsive user interface.
 # ASP.Net MVC :
