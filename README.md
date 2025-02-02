@@ -7,19 +7,21 @@ Feel free to suggest any updates and submit a pull request
 * Social Relevance: Merges technical challenges with a socially relevant cause, contributing positively to the community.
 * Professional Impact: Enhances professional portfolios while making a meaningful societal contribution.
 # Key Functionalities:
-* Account Creation: Allow users to create and manage accounts.
+* Account Creation: Allow users to create and manage accounts.(Admin and User )
 * Profile Management: Users can update personal information, preferences, and payment methods.
 * Product Pages: Provide detailed descriptions, specifications, pricing, and high-quality images.
 * Cart Management: Users can add, remove, or modify items in their cart.
 * Order Summary: Show a detailed summary of the order before finalizing.
-# Admin Interface:
-Admin Roles: Create and manage user roles and permissions (e.g., product manager, order processor).
+# Admin Interface: 
+ the Admin Interface features adashboard, user management, product updates, and order tracking
+# User Interface: 
+User registration with login options, personalized dashboard, easy product search, detailed product pages, quick add-to-cart, and slide-out cart preview.
 # Technology Stack:
 # Backend:
-  - Spring Boot: Spring Boot offers a comprehensive framework for developing Java-based web applications, including RESTful APIs.
-  - Database: MySQL will manage data related to products, users, orders, and other critical information efficiently.
-  - Authentication: JSON Web Tokens (JWT): Employed for secure authentication and authorization.
-  - Cross-Origin Resource Sharing (CORS): CORS enables secure cross-origin requests for front-end and back-end communication across different domains or ports..
+  - Spring Boot:it is used for developing Java-based web applications
+  - Database: MySQL manages data for products, users,  orders etc.
+  - Authentication: JSON Web Tokens (JWT):JWT ensures secure authentication
+  - Cross-Origin Resource Sharing (CORS): CORS facilitates secure cross-origin communication between front-end and back-end
 # Frontend :
   - Axios: Used for making HTTP requests to interact with the backend. 
   - Material-UI: Provides stylish and responsive UI components.
