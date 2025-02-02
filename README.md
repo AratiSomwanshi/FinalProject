@@ -1,4 +1,5 @@
-# E-commerce system specifically designed for sports accessories.
+# sports accessories E-commerce system 
+E-commerce system specifically designed for sports accessories.
 Feel free to suggest any updates and submit a pull request
 # Purpose:
 * Target Audience: The project is designed specifically for sports players.
