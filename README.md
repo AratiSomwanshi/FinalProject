@@ -1,12 +1,6 @@
 # Sports accessories E-commerce system 
 E-commerce system specifically designed for sports accessories.
 Feel free to suggest any updates and submit a pull request
-## Purpose:
-* Target Audience: The project is designed specifically for sports players.
-* Objective: It aims to simplify the process of finding and purchasing sports accessories.
-* Technical Scope: Showcases a comprehensive skill set in both front-end and back-end          development.
-* Social Relevance: Merges technical challenges with a socially relevant cause, contributing positively to the community.
-* Professional Impact: Enhances professional portfolios while making a meaningful societal contribution.
 ## Key Functionalities:
 * Account Creation: Allow users to create and manage accounts.(Admin and User )
 * Profile Management: Users can update personal information, preferences, and payment methods.
